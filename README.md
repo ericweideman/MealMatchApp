@@ -5,8 +5,9 @@ local restuarants. Play with a partner in this swipe style interface to help set
 what to eat for dinner.
 
 Current Capabilities: 
-* Builds a Yelp HTTPRequest based on search paramaters to retrieve on up to 50 local restaurants
-* Parses the JSON response
+* Requests permission to use phones locations services
+* Builds a Yelp HTTPRequest based on search paramaters (including user latitude and longitude) to retrieve on up to 50 local restaurants
+* Parses the yelp JSON response
 * Displays the information in a CardView
     . includes converting the rating of the restaurant (a Double) to an image in accordance with Yelp Display Guidelines
     . correctly attributes the information to the Yelp database
